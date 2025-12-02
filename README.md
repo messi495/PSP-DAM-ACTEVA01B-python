@@ -4,7 +4,7 @@ Este proyecto es una simulación sencilla de un flujo de pedidos en un restauran
 ## Descripción del proyecto
 El sistema modela a tres actores principales de un restaurante (cliente, cocinero y repartidor) y una clase gestora que coordina todo el proceso de un pedido. Cada pedido se genera, se prepara y finalmente se entrega, mostrando por pantalla # cada paso del flujo.​
 
-# Estructura de archivos
+## Estructura de archivos
 cliente.py: Contiene la clase Cliente, encargada de generar pedidos numerados como Pedido-1, Pedido-2, etc.
 
 cocinero.py: Contiene la clase Cocinero, que recibe un pedido y lo marca como listo añadiendo el texto (listo).
