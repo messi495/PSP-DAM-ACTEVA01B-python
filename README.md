@@ -14,25 +14,25 @@ cocinero.py: Contiene la clase Cocinero, que recibe un pedido y lo marca como li
  gestor_restaurante.py: Clase principal GestorRestaurante que coordina la interacción entre cliente, cocinero y repartidor y ejecuta la simulación.
 
  Clases y responsabilidades
-# Cliente:
+## Cliente:
 
  Método generar_pedido(numero): crea una cadena con el identificador del pedido y la muestra por pantalla.
 
-# Cocinero:
+## Cocinero:
 
  Método preparar_pedido(pedido): simula la preparación del pedido y devuelve la versión marcada como lista.
 
-# Repartidor:
+## Repartidor:
 
-# Método entregar_pedido(pedido_listo): simula la entrega del pedido listo mostrando un mensaje.
+Método entregar_pedido(pedido_listo): simula la entrega del pedido listo mostrando un mensaje.
 
-# GestorRestaurante:
+## GestorRestaurante:
 
  Constructor: instancia un cliente, un cocinero y un repartidor.
 
  Método iniciar(num_pedidos): recorre del 1 a num_pedidos generando, preparando y entregando cada pedido en orden.
 
-# Cómo ejecutar la simulación
+## Cómo ejecutar la simulación
  Asegúrate de tener todos los archivos (cliente.py, cocinero.py, repartidor.py, gestor_restaurante.py) en el mismo directorio.​
 
  Desde la terminal, ejecuta:
